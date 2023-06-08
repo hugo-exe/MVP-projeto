@@ -1,0 +1,20 @@
+package br.com.sfd.mvp.application;
+
+import br.com.sfd.mvp.models.Usuario;
+
+public class Terminal {
+    public static void main(String[] args) {
+        Usuario usuario = new Usuario();
+        
+        // Use os métodos e atributos da classe Usuario
+        usuario.setNome("John Doe");
+        usuario.setSenha("123456");
+        usuario.setConfirmaSenha("123456");
+        
+        if (usuario.validarUsuario()) {
+            System.out.println("Usuário válido.");
+        } else {
+            System.out.println("As senhas não correspondem.");
+        }
+    }
+}

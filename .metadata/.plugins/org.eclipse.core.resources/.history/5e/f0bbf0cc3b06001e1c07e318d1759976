@@ -1,0 +1,63 @@
+package br.com.sfd.mvp.models;
+
+public class Usuario {
+	private int idUsuario;
+	private String nome;
+	private String senha;
+	private String confirmaSenha;
+	
+	public Usuario(int idUsuario, String senha, String nome, String confirmaSenha) {
+		super();
+		this.idUsuario = idUsuario;
+		this.nome = nome;
+		this.senha = senha;
+		this.confirmaSenha = confirmaSenha;
+	}
+
+	public int getIdUsuario() {
+		return idUsuario;
+	}
+
+	public void setIdUsuario(int idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public String getConfirmaSenha() {
+		return confirmaSenha;
+	}
+
+	public void setConfirmaSenha(String confirmaSenha) {
+		this.confirmaSenha = confirmaSenha;
+	}
+
+	public void CriarUsuario() {
+		return Usuario.add(Usuario);
+	}
+	
+	public boolean validarUsuario() {
+        if (senha.equals(confirmaSenha)) {
+            System.out.println("Usuário válido!");
+            return true;
+        } else {
+            System.out.println("Senha e confirmação de senha não coincidem!");
+            return false;
+        }
+    }
+	
+}

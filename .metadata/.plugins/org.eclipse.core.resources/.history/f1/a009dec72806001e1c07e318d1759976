@@ -1,0 +1,10 @@
+package br.com.sfd.mvp.entities;
+
+public interface interfaceConta {
+
+	public void salvar(conta conta);
+
+	public void excluir(conta conta);
+
+	public void alterar(String nomeConta);
+}

@@ -1,0 +1,20 @@
+package br.com.sfd.mvp.application;
+
+import br.com.sfd.mvp.models.Usuario;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("test main usuario");
+
+		
+		
+		String Nome = ("John Doe");
+        String Senha = ("123456");
+        String ConfirmaSenha = ("123456");
+        Usuario usuario = new Usuario(123456, Nome,Senha, ConfirmaSenha);
+        
+	}
+
+}

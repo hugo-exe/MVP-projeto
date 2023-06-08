@@ -1,0 +1,43 @@
+package sfd.entities.mvp;
+
+public class conta {
+	private int idConta;
+	 private String nomeConta;
+	 
+	 public conta() {
+	 }
+
+	public conta(int idConta, String nomeConta) {
+		this.idConta = idConta;
+		this.nomeConta = nomeConta;
+	}
+
+	public int getIdConta() {
+		return idConta;
+	}
+
+	public void setIdConta( int idConta) {
+		this.idConta = idConta;
+	}
+
+	public String getNomeConta() {
+		return nomeConta;
+	}
+
+	public void setNomeConta(String nomeConta) {
+		this.nomeConta = nomeConta;
+	}
+	
+	
+	public void inserirConta(conta conta) {
+		conta.getIdConta();
+		conta.getNomeConta();
+	}
+	public void deletarConta(conta conta) {
+		
+	}
+	public void alterarConta(conta conta) {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package br.com.sfd.mvp.application;
+
+import java.util.Scanner;
+
+import br.com.sfd.mvp.models.Usuario;
+
+public class Terminal {
+    public static void main(String[] args) {
+
+    }
+}

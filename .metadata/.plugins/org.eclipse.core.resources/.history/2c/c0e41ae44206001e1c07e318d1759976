@@ -1,0 +1,17 @@
+package br.com.sfd.mvp.application;
+
+import br.com.sfd.mvp.models.Usuario;
+
+public class main {
+
+	private static Usuario usuario;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("test main usuario");
+
+		usuario = new Usuario();
+		
+	}
+
+}

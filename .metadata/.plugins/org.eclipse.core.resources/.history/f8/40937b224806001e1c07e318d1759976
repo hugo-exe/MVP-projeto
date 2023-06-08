@@ -1,0 +1,32 @@
+package br.com.sfd.mvp.application;
+
+import br.com.sfd.mvp.models.Usuario;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Usuario usuario1 = new Usuario(1, "John", "123456", "123456");
+        Usuario usuario2 = new Usuario(2, "Jane", "abcdef", "abcdef");
+        
+        // Testando o método criarUsuario
+        Usuario usuario3 = new Usuario(3, "Alice", "qwerty", "qwerty");
+        usuario1.criarUsuario(usuario3);
+        
+        // Testando o método removerUsuario
+        usuario2.removerUsuario(usuario2);
+        
+        // Testando o método validarUsuario
+        boolean usuario1Valido = usuario1.validarUsuario();
+        boolean usuario2Valido = usuario2.validarUsuario();
+        
+        System.out.println("Usuário 1 válido? " + usuario1Valido);
+        System.out.println("Usuário 2 válido? " + usuario2Valido);
+        System.out.println("Lista de usuários:");
+        for (Usuario usuario : usuario1.getUsuarios()) {
+            System.out.println("ID: " + usuario.getIdUsuario() + ", Nome: " + usuario.getNome());
+        }
+    }
+}
+
+

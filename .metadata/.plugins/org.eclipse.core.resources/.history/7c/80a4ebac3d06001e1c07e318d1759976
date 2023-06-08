@@ -1,0 +1,17 @@
+package br.com.sfd.mvp.models;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class UsuarioTest {
+
+	@Test
+	public void testCriarUmUsuario() {
+		this.idUsuario = idUsuario;
+		this.nome = nome;
+		this.senha = senha;
+		this.confirmaSenha = confirmaSenha;;
+	}
+
+}
