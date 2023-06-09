@@ -1,0 +1,16 @@
+package br.com.sfd.mvp.entities;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class LancamentosGastos {
+	private int idLancamentosGerais;
+	 private float valorGasto;
+	 private List<LancamentosGastos> ValoresGastos = new ArrayList<>();
+	 private Date dataGasto;
+	 private List<LancamentosGastos> datasGasto = new ArrayList<>();
+	 private String quantidadePorConsumo;
+	 private List<LancamentosGastos> quantidadesPorConsumos = new ArrayList<>();
+	 
+}
