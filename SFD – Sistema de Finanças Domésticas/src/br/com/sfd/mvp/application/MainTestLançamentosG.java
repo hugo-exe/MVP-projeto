@@ -1,4 +1,4 @@
-package br.com.sfd.mvp.application2;
+package br.com.sfd.mvp.application;
 
 import java.util.Date;
 
