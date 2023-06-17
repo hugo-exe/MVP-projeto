@@ -35,4 +35,19 @@ public class Prospeccao {
         System.out.println("Valor: " + valor);
         System.out.println("Parcelas: " + parcelas);
     }
+
+	public void inserirProspeccao(int idProspeccao2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deletarProspeccao(Prospeccao prospeccao) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setNomeProspeccao(String nomeProspeccao) {
+		// TODO Auto-generated method stub
+		
+	}
 }

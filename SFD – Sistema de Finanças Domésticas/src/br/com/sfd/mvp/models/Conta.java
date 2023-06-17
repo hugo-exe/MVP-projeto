@@ -33,8 +33,8 @@ public class Conta {
     public void deletarConta(Conta conta) {
         this.deletarConta(conta);
     }
-    public void alterarConta(String nome) {
-        this.alterarConta(nome);
+    public void alterarConta(Conta conta) {
+        this.alterarConta(conta);
     }
 
 

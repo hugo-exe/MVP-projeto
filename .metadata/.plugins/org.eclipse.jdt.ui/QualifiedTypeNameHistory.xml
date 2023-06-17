@@ -7,5 +7,10 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.com.sfd.mvp.models.Conta"/>
+    <fullyQualifiedTypeName name="br.com.sfd.mvp.models.Prospeccao"/>
+    <fullyQualifiedTypeName name="br.com.sfd.mvp.entities.LancamentosGastos"/>
+    <fullyQualifiedTypeName name="br.com.sfd.mvp.models.RendaMensal"/>
     <fullyQualifiedTypeName name="br.com.sfd.mvp.models.Usuario"/>
+    <fullyQualifiedTypeName name="view.RendaMensalGUI"/>
 </qualifiedTypeNameHistroy>

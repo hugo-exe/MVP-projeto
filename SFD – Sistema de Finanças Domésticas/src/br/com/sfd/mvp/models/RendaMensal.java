@@ -10,10 +10,10 @@ public class RendaMensal {
     public RendaMensal () {
     }
 
-    public RendaMensal (int idRendaMensal, float valor, Date data, String descricao) {
+    public RendaMensal (int idRendaMensal, double valor2, Date data, String descricao) {
         super();
         this.idRendaMensal = idRendaMensal;
-        this.valor = valor;
+        this.valor = (float) valor2;
         this.data = data;
         this.descricao = descricao;
     }
